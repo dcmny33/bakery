@@ -1,0 +1,37 @@
+
+html{
+    box-sizing: border-box;
+
+}
+
+.jumbotron h1 {
+    font-weight: bold !important;
+    font-family:'Dancing Script', cursive;
+    font-size: 6em;
+    height: .75em;
+}
+
+
+p {
+    font-size: 1.5em;
+}
+
+.container text{
+    align: left;
+
+}
+
+
+.socialicons{
+    margin-bottom:auto;
+    background:mistyrose;
+    display: flex;
+}
+
+i{
+    height: 10vh;
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

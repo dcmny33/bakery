@@ -1,0 +1,139 @@
+:root{
+    --white: #f8f8ff
+}
+
+html{
+    box-sizing: border-box;
+}
+
+/* div{  
+    outline:1px solid red;
+}*/
+
+
+.jumbotron{
+    display: flex;
+   /* background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45))*/
+    
+}
+
+.jumbotron h1 {
+    font-weight: bold !important;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2em;
+}
+
+.jumbotron p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin-left: 24rem;
+    margin-bottom: -5rem;
+}
+
+#Tagline p{
+    color:red;
+}
+.navbar-brand img{
+   align-content: right;
+    height: 40vh;
+    width: 70vh;
+    justify-content: right;
+    margin-left: -7rem;
+    margin-top: 0rem;
+    margin-bottom:-5rem;
+    /* background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)) */
+}
+
+
+.background-image{
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: 3fr 2fr .03fr;
+    grid-template-areas: "text image .";
+    height:70vh;
+    background: black url('https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg')
+    no-repeat fixed;
+    background-size: cover;
+}
+
+.container{
+    display:flex;
+}
+.card{
+   display:flex;
+    margin: 10px;
+    text-align: left;
+    justify-items: right;
+}
+
+.jumbotron{
+    font-size: 40px;
+}
+.carousel slide{
+    height: 40vh;
+}
+.test{
+    font-size: 4em;
+    font-family: 'Baloo Chettan', cursive;
+    color: white;
+    background-color: gray;
+    position:overlay;
+}
+
+.carousel-inner{
+    height: 100vh !important;
+}
+.card:hover{
+   /* -webkit-box-shadow:0 0 8px rgba(0,0,0,.40);
+    -moz-box-shadow:0 0 8px rgb(153,153,153);
+    -o-box-shadow:0 0 8px #999; */
+    box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.8);
+    transform:scale(1.1, 1.1);  
+}
+.card:hover: :after{
+    opacity: 1;
+}
+footer{
+    margin-top:20px;
+    background-color:pink;
+    font-weight: bold;
+    color:gray;
+    margin-bottom: 0px;
+}
+#cards-bg{
+    background-color: gray;
+
+}
+.card-body{
+    background-color: lightgray;
+    
+    
+}
+#card{
+   float: none;
+   margin: 0 auto;
+}
+.socialicons{
+    margin-bottom:auto;
+    background:mistyrose;
+    display: flex;
+}
+
+i{
+    height: 10vh;
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+
+ 
+
+
+
+
+
+
+
+
