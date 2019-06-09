@@ -83,6 +83,7 @@ html{
 .carousel-inner{
     height: 100vh !important;
 }
+
 .card:hover{
    /* -webkit-box-shadow:0 0 8px rgba(0,0,0,.40);
     -moz-box-shadow:0 0 8px rgb(153,153,153);
@@ -90,9 +91,11 @@ html{
     box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.8);
     transform:scale(1.1, 1.1);  
 }
-.card:hover: :after{
+
+/* .card:hover: :after{
     opacity: 1;
-}
+} */
+
 footer{
     margin-top:20px;
     background-color:pink;
