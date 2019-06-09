@@ -19,6 +19,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
+        <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="About.html">About</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Goodies
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Cakes</a>
+                            <a href="#">Macaroons</a>
+                            <a href="#">Cookies</a>
+                        </div>
+                    </div>
+                <a href="contact_noform.html">Contact</a>
+                <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
     <!-- jumbotron -->
 <div class="jumbotron" style="margin-bottom: 0px; bg-light">
     <div class="container">
@@ -33,7 +49,9 @@
 </div>
 </div>
 </div>
+
 <!-- navbar -->
+<!--
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <button class=navbar-toggler data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon"></span>
@@ -48,45 +66,20 @@
                 <a class="nav-link" href="About.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Goodies</a>
-                
-                
+                <a class="nav-link" href="#">Goodies</a>  
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact_noform.html">Contact</a>
             </li>
         </ul>
     </div>
-</nav>
-    
-    <!-- carousel 
-    <div id="carouselFood" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <!-- First Image 
-            <div class="carousel-item active" data-interval="10000">
-                
-            <img src="https://res.cloudinary.com/dcmny33/image/upload/v1554680380/54513701_368465280667729_5542023174489226772_n.jpg.jpg" alt="doughtnutcake"
-            class="d-block w-100" alt="pic1"> 
-            <div class="carousel-caption">
-            </div>
-            <!-- Second Image 
-            <div class="carousel-item" data-interval="10000">
-            <img src="https://res.cloudinary.com/dcmny33/image/upload/v1554257761/AC_1.jpg"
-            class="d-block w-100" alt="pic2">
-            </div>
-            <!-- Third Image 
-            <div class="carousel-item" data-interval="10000">
-            <img src="https://res.cloudinary.com/dcmny33/image/upload/v1554257761/AC_Mixing.jpg"
-            class="d-block w-100" alt="pic3">
-            </div>
-            <!-- Fourth Image 
-            <div class="carousel-item" data-interval="10000">
-            <img src="https://res.cloudinary.com/dcmny33/image/upload/v1554257753/AC_Cutting_Cake.jpg"
-            class="d-block w-100" alt="pic4">
-        </div>
-        </div>
-    </div> -->  
+</nav> -->
 
+
+
+
+
+    
     <div id="carouselSlideShow" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselSlideShow" data-slide-to="0" class="active"></li>
@@ -96,7 +89,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://res.cloudinary.com/dcmny33/image/upload/v1554680380/54513701_368465280667729_5542023174489226772_n.jpg.jpg" alt="slide1">
+                <img class="d-block w-100" src="https://res.cloudinary.com/dcmny33/image/upload/v1554257761/AC_1.jpg" alt="slide1" width="100%">
                 <div class="carousel-caption d-none d-md-block">
                     <h6>“I cannot brag about Ann Marie and Little Spoon enough.  She was so approachable when I asked for a surprise Christmas gender reveal cake for my parents.  She provided treats for my son’s baby dedication, now a custom cake and smash cake for his first birthday.  She is awesome!” 
                             -P. Polimeni
