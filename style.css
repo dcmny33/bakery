@@ -11,23 +11,20 @@ html{
 }*/
 
 
-.jumbotron{
-    display: flex;
-   /* background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45))*/
-    
-}
+
 
 .jumbotron h1 {
     font-weight: bold !important;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
+    margin-bottom: -.5em;
 }
 
 .jumbotron p{
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
     margin-left: 24rem;
-    margin-bottom: -5rem;
+    margin-bottom: -15rem;
 }
 
 #Tagline p{
@@ -39,7 +36,7 @@ html{
     width: 70vh;
     justify-content: right;
     margin-left: -7rem;
-    margin-top: 0rem;
+    margin-top: -4.5rem;
     margin-bottom:-5rem;
     /* background:linear-gradient(rgba(0, 0, 250, 0.25), rgba(125, 250, 250, 0.45)) */
 }
@@ -69,32 +66,18 @@ html{
 .jumbotron{
     font-size: 40px;
 }
-.carousel slide{
-    height: 40vh;
-}
-.test{
-    font-size: 4em;
-    font-family: 'Baloo Chettan', cursive;
-    color: white;
-    background-color: gray;
-    position:overlay;
-}
+
 
 .carousel-inner{
     height: 100vh !important;
 }
 
 .card:hover{
-   /* -webkit-box-shadow:0 0 8px rgba(0,0,0,.40);
-    -moz-box-shadow:0 0 8px rgb(153,153,153);
-    -o-box-shadow:0 0 8px #999; */
-    box-shadow: 3px 5px 20px -1px rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 5px 20px -1px rgba(252, 252, 252, 0.8);
     transform:scale(1.1, 1.1);  
 }
 
-/* .card:hover: :after{
-    opacity: 1;
-} */
+
 
 footer{
     margin-top:20px;
@@ -215,6 +198,19 @@ i{
         float: right;
         display: block;
     }
+}
+
+h6 {
+    
+        color:rgb(235, 238, 240);
+        text-shadow: .06rem .06rem;
+        margin-top: 2em;
+        padding-top: 1.5em;
+        padding-left:.4em;
+    }
+
+.carousel-inner img {
+    filter: brightness(75%)
 }
 
 
